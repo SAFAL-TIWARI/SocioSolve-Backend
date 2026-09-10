@@ -17,9 +17,9 @@ export interface RoleCredential {
 export const ROLE_ACCOUNTS: Record<UserRole, RoleCredential> = {
   citizen: {
     role: 'citizen',
-    email: process.env.ROLE_CITIZEN_EMAIL || 'citizen@jharkhand.gov.in',
-    password: process.env.ROLE_CITIZEN_PASSWORD || 'Password@2026',
-    alternativePasswords: ['Citizen@2026', 'password', 'Password@2026'],
+    email: process.env.ROLE_CITIZEN_EMAIL || 'citizen@gmail.com',
+    password: process.env.ROLE_CITIZEN_PASSWORD || 'Citizen@123',
+    alternativePasswords: ['Citizen@123', 'password', 'Citizen@123'],
     name: 'Pooja Kumari',
     district: 'Ranchi',
     designation: 'Civic Resident & Community Validator',
@@ -28,8 +28,8 @@ export const ROLE_ACCOUNTS: Record<UserRole, RoleCredential> = {
   government: {
     role: 'government',
     email: process.env.ROLE_GOVERNMENT_EMAIL || 'officer@jharkhand.gov.in',
-    password: process.env.ROLE_GOVERNMENT_PASSWORD || 'Password@2026',
-    alternativePasswords: ['Officer@2026', 'password', 'Password@2026'],
+    password: process.env.ROLE_GOVERNMENT_PASSWORD || 'Officer@123',
+    alternativePasswords: ['Officer@123', 'password', 'Officer@123'],
     name: 'Dr. Rajeshwar Prasad',
     district: 'Ranchi',
     designation: 'District Nodal Officer (DW&S Dept)',
@@ -39,8 +39,8 @@ export const ROLE_ACCOUNTS: Record<UserRole, RoleCredential> = {
   university: {
     role: 'university',
     email: process.env.ROLE_UNIVERSITY_EMAIL || 'faculty@bitmesra.ac.in',
-    password: process.env.ROLE_UNIVERSITY_PASSWORD || 'Password@2026',
-    alternativePasswords: ['Faculty@2026', 'password', 'Password@2026'],
+    password: process.env.ROLE_UNIVERSITY_PASSWORD || 'Faculty@123',
+    alternativePasswords: ['Faculty@123', 'password', 'Faculty@123'],
     name: 'Prof. A. K. Sinha',
     district: 'Ranchi',
     designation: 'Dean of Research & Innovation',
@@ -50,8 +50,8 @@ export const ROLE_ACCOUNTS: Record<UserRole, RoleCredential> = {
   student: {
     role: 'student',
     email: process.env.ROLE_STUDENT_EMAIL || 'student@bitmesra.ac.in',
-    password: process.env.ROLE_STUDENT_PASSWORD || 'Password@2026',
-    alternativePasswords: ['Student@2026', 'password', 'Password@2026'],
+    password: process.env.ROLE_STUDENT_PASSWORD || 'Student@123',
+    alternativePasswords: ['Student@123', 'password', 'Student@123'],
     name: 'Rohit Verma',
     district: 'Ranchi',
     designation: 'Student Innovator (B.Tech ECE)',
@@ -61,8 +61,8 @@ export const ROLE_ACCOUNTS: Record<UserRole, RoleCredential> = {
   industry: {
     role: 'industry',
     email: process.env.ROLE_INDUSTRY_EMAIL || 'csr@tatasteel.com',
-    password: process.env.ROLE_INDUSTRY_PASSWORD || 'Password@2026',
-    alternativePasswords: ['Industry@2026', 'password', 'Password@2026'],
+    password: process.env.ROLE_INDUSTRY_PASSWORD || 'Industry@123',
+    alternativePasswords: ['Industry@123', 'password', 'Industry@123'],
     name: 'Anita Sen',
     district: 'East Singhbhum',
     designation: 'Director of CSR & Community Grants',
@@ -72,8 +72,8 @@ export const ROLE_ACCOUNTS: Record<UserRole, RoleCredential> = {
   admin: {
     role: 'admin',
     email: process.env.ROLE_ADMIN_EMAIL || 'admin@jharkhand.gov.in',
-    password: process.env.ROLE_ADMIN_PASSWORD || 'Password@2026',
-    alternativePasswords: ['Admin@2026', 'password', 'Password@2026'],
+    password: process.env.ROLE_ADMIN_PASSWORD || 'Admin@123',
+    alternativePasswords: ['Admin@123', 'password', 'Admin@123'],
     name: 'State IT Secretary & Chief Secretary Admin',
     district: 'Ranchi',
     designation: 'State Platform Administrator & Chief Secretary Office',
