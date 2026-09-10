@@ -4,7 +4,7 @@ import { ENV } from './env.js';
 export async function connectDB(): Promise<void> {
   try {
     mongoose.set('strictQuery', true);
-    await mongoose.connect(ENV.MONGODB_URI);
+    await mongoose.connect(ENV.MONGODB_URI || 'mongodb://localhost:27017/sociosolve');
     console.log('✅ Connected to MongoDB Atlas/Database successfully.');
   } catch (error) {
     console.error('❌ MongoDB Connection Error:', error);

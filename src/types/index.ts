@@ -1,4 +1,4 @@
-export type UserRole = 'citizen' | 'government' | 'university' | 'industry' | 'admin';
+export type UserRole = 'citizen' | 'government' | 'university' | 'student' | 'industry' | 'admin';
 
 export type ChallengeSeverity = 'Low' | 'Medium' | 'High' | 'Critical';
 

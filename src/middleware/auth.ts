@@ -16,7 +16,7 @@ export function authenticate(req: AuthenticatedRequest, res: Response, next: Nex
 
   const token = authHeader.split(' ')[1];
   try {
-    const decoded = jwt.verify(token, ENV.JWT_SECRET) as AuthUserPayload;
+    const decoded = jwt.verify(token, (ENV.JWT_SECRET || 'socio-solve-jwt-secret-key-2026') as string) as unknown as AuthUserPayload;
     req.user = decoded;
     next();
   } catch (err) {

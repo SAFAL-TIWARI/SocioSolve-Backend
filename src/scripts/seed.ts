@@ -73,11 +73,11 @@ async function seed() {
 
   const studentUser = await User.create({
     name: 'Aman Kumar Verma',
-    email: 'student@nitjsr.ac.in',
+    email: 'student@bitmesra.ac.in',
     phone: '+91 79031 55672',
     passwordHash,
-    role: 'university',
-    district: 'East Singhbhum',
+    role: 'student',
+    district: 'Ranchi',
     designation: 'Lead Student Researcher (IoT & Robotics Club)',
     institutionName: 'National Institute of Technology, Jamshedpur',
     isVerified: true,
